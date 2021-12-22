@@ -2,38 +2,45 @@ import { FaBars } from 'react-icons/fa';
 import { NavLink as Link } from 'react-router-dom';
 import styled from 'styled-components';
 
-export const Nav = styled.nav`
-  margin-left, margin-right: 1vw;
-  text-decoration: underline;
+export const Nav = styled.nav`s
+  font-family: AWConqueror Std Didot;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2vw;
+  display: flex;
+  letter-spacing: -0.015em;
+  text-decoration-line: underline;
+  text-transform: uppercase;
   height: 2.5vw;
   display: flex;
   justify-content: space-between;
-  padding: 0.5rem calc((100vw - 1000px) / 2);
+  padding-left: 5vw;
+  padding-right: 5vw;
+  margin-top: 0.5vw;
+  margin-bottom: 0.4vw;
   z-index: 10;
-  border-bottom: 1px solid black;
+
   /* Third Nav */
   /* justify-content: flex-start; */
 `;
 
 /* Home nav item */
 export const NavLink = styled(Link)`
-  color: #1C1C21;
+  color: #1c1c21;
   display: flex;
   align-items: center;
   text-decoration: none;
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
-  /* when active 
+  /* when active */
   &.active {
-    color: #fff;
+    font-weight: bold;
   }
-  */
 `;
 
 export const Bars = styled(FaBars)`
   display: none;
-  color: #fff;
   @media screen and (max-width: 768px) {
     display: block;
     position: absolute;

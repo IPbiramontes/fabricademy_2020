@@ -1,3 +1,4 @@
+ /* nav specfic css */
 body, p {
   margin: 0;
   font-family: aw-conqueror-didot,serif;
@@ -5,25 +6,3 @@ body, p {
   font-style: normal;
   background-color: #F3EFE2;
 }
-
-h1{
-  /* Timonium Light */
-    font-family: timonium, sans-serif;
-    font-weight: 300;
-    font-style: normal;
-}
-.boldHeader{
-  /* Timonium Bold */
-    font-weight: 700;
-}
-.boldbody{
-  /* AWConqueror Std Didot Bold */
-    font-weight: 700;
-}
-.boldHeaderItalic{
-  /* Timonium Bold Italic */
-    font-family: timonium, sans-serif;
-    font-weight: 700;
-    font-style: italic;
-}
-
